@@ -10,5 +10,6 @@ def doubler(string):
         return -1
     else:
         return result[0] #return the lexically smallest
-string=input()
-print(doubler(string))
+string=input()  #taking input from user
+result = doubler(string) #computing and assigning to result
+print(result) # printing result
